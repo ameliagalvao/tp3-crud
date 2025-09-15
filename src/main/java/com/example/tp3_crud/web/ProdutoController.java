@@ -15,7 +15,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/produtos")
-class ProdutoController {
+public class ProdutoController {
     private final ProdutoRepository repo;
 
 

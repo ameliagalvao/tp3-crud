@@ -15,7 +15,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/fornecedores")
-class FornecedorController {
+public class FornecedorController {
     private final FornecedorRepository repo;
 
 
